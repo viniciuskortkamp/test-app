@@ -1,0 +1,1 @@
+lang="{{ Lang::getLocale() }}"{{ config('languages.language.'.$DB_USER_LANG.'.rtl') == true ? ' dir=rtl' : '' }}
